@@ -1,0 +1,33 @@
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Visual Studio e editores
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# Arquivos temporários
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
