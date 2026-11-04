@@ -1,4 +1,3 @@
-
 # Unity
 [Ll]ibrary/
 [Tt]emp/
@@ -9,25 +8,74 @@
 [Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
 [Rr]ecordings/
+.utmp/
 
 # Visual Studio e editores
 .vs/
 .idea/
 .vscode/
+.gradle/
+.consulo/
 *.csproj
+*.unityproj
 *.sln
+*.slnx
 *.suo
 *.user
 *.userprefs
+*.DotSettings.user
 
-# Arquivos temporários
+# Arquivos temporários e sistema
 *.tmp
 *.log
 .DS_Store
 Thumbs.db
 Desktop.ini
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+mono_crash.*
+
+# Blender
+*.blend1
+*.blend1.meta
+
+# JetBrains Rider
+/Assets/Plugins/Editor/JetBrains*
 
 # Builds
 *.apk
 *.aab
 *.unitypackage
+*.unitypackage.meta
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# TestRunner
+InitTestScene*.unity*
+
+# Addressables
+/ServerData
+/Assets/StreamingAssets/aa*
+/Assets/AddressableAssetsData/link.xml*
+/Assets/Addressables_Temp*
+/Assets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting
+/Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# UI Toolkit
+/UIElementsSchema/
+
+# Scene Dependency Cache
+/Assets/SceneDependencyCache*
